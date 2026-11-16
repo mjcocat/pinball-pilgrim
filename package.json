@@ -1,0 +1,13 @@
+{
+  "name": "pinball-pilgrim",
+  "version": "1.0.0",
+  "description": "A one-thumb storybook launch game: fling a tiny knight from a castle catapult and bounce as far as you can.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "sim": "node tools/sim.mjs",
+    "test": "node tools/sim.mjs 300 --check"
+  },
+  "engines": { "node": ">=18" }
+}
